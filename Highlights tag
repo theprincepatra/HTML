@@ -1,0 +1,10 @@
+<b> BOLD </b>                             <!-- To bold the font -->
+<i> ITALIC </i>                           <!-- To italic the font -->
+<u> UNDERLINE </u>                        <!-- To uderline the font -->
+<big> BIG FONT SIZE </big>                <!-- To make the font bigger -->
+<small> SMALL FONT SIZE </small>          <!-- To the font smaller -->
+<hr>   # display a horizontal line        <!-- To dispaly a horizontal line -->
+<p> H <sub> 2 </sub> O </p>               <!-- To subscript the font -->
+<p> 3 <sup> 2 </sup></p>                  <!-- To superscript the font -->
+<pre> He   is   a   boy</pre>             <!-- To make use of the spaces adn lines the font -->
+<!--code within it not get executed-->    <!-- COMMENT IN HTML -->
