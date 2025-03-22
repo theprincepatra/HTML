@@ -1,0 +1,9 @@
+<!Doctype html>        # tells browser that you are using HTML5
+<html>      # root of an html document
+    <head>        # contaner of a meta data
+        <tittle>My First Page</tittle>       # Page tittle
+    </head>
+    <body>
+        <p>Hello Wrold</p>       # Contains all data given by the browser
+    </body>
+</html>
