@@ -44,7 +44,7 @@ Welcome to my HTML practice repository! This is a collection of basic to interme
 
 ---
 
-## 📁 Folder Structure Suggestion
+## 📁 Folder Structure
 
 ```bash
 .
@@ -59,4 +59,4 @@ Welcome to my HTML practice repository! This is a collection of basic to interme
 ├── 09_form2.html
 ├── 10_class_id_label.html
 ├── 11_multimedia.html
-└── README.md
+├── Projects
