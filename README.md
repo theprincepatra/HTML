@@ -5,10 +5,10 @@ Welcome to my HTML practice repository! This is a collection of basic to interme
 ## 📄 Contents
 
 ### 1. Page Layout
-- Created a basic HTML page structure with `<!DOCTYPE html>`, `<html>`, `<head>`, and `<body>`.
+- `<!DOCTYPE html>`, `<html>`, `<head>`, `<title>`, `<body>`, `<h1>` to `<h6>`, `<p>`
 
 ### 2. Highlight Tag
-- Used the `<mark>` tag to highlight important text within a paragraph.
+- `<mark>`, `<b>`, `<i>`, `<u>`, `<big>`, `<small>`, `<hr>`, `<sub>`, `<sup>`
 
 ### 3. Anchor & Image Tags
 - Implemented anchor tags (`<a>`) with `target="_blank"` to open links in a new tab.
