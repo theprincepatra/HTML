@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Anchor and Image Tag</title>
+</head>
+<body>
+
+  <h1>Anchor & Image Tag Demo</h1>
+
+  <!-- Anchor tag with target -->
+  <p>
+    Visit <a href="https://www.google.com" target="_blank">Google</a><br>
+    Visit (using target): <a href="https://www.google.com" target="_blank">Google</a>
+    <!-- With target="_blank", the link opens in a new tab -->
+    <!--target can also be:
+      i) _blank:	Opens the link in a new tab or window
+      ii) _self:	Opens in the same tab (this is the default)
+      iii) _parent:	Opens in the parent frame (if using frames/iframes)
+      iv) _top:	Opens in the full body of the window, breaking all frames -->
+  </p>
+  <!-- Anchor with Download -->
+  <p>
+    Click below to download an image:<br />
+    <a href="https://via.placeholder.com/150" download="PlaceholderImage.png">Download Image</a>
+    <!-- The file will be saved as 'PlaceholderImage.png' -->
+  </p>
+
+  <!-- Image tag -->
+  <p>
+    Here's an image:<br />
+    <img src="https://via.placeholder.com/150" alt="Demo Image" width="150" height="150" />
+  </p>
+
+  <!-- Anchor with image inside -->
+  <p>
+    Click the image to go to OpenAI:<br />
+    <a href="https://www.openai.com" target="_blank">
+      <img src="https://via.placeholder.com/150/0000FF/FFFFFF?text=OpenAI" alt="OpenAI Link Image" />
+    </a>
+  </p>
+
+</body>
+</html>
