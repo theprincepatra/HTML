@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Semantic vs Non-Semantic Tags</title>
+</head>
+<body>
+
+  <!-- ✅ SEMANTIC STRUCTURE -->
+  <header>
+    <h1>Semantic Structure</h1>
+    <p>Header: used for page intro/navigation</p>
+  </header>
+
+  <nav>
+    <p>Nav: contains main links</p>
+    <a href="#">Home</a> |
+    <a href="#">About</a> |
+    <a href="#">Contact</a>
+  </nav>
+
+  <main>
+    <article>
+      <h2>Article Section</h2>
+      <p>This is a blog-style content area inside a semantic structure.</p>
+    </article>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Prince Patra. Semantic Footer Example.</p>
+  </footer>
+
+  <hr>
+
+  <!-- ❌ NON-SEMANTIC STRUCTURE -->
+  <div style="background-color: #f9f9f9; padding: 10px;">
+    <h1>Non-Semantic Structure</h1>
+    <div>This is a header replacement using &lt;div&gt;.</div>
+    <div>
+      This is a nav-like section:
+      <br>
+      <a href="#">Home</a> |
+      <a href="#">Services</a> |
+      <a href="#">Help</a>
+    </div>
+    <div>
+      <h2>Content Area (Article)</h2>
+      <p>Just using divs — but no tag tells what this content *means*.</p>
+    </div>
+    <div>
+      &copy; 2025 Non-Semantic Footer Styled with a div
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- 🧠 Span Tag Comparison -->
+  <p>
+    <strong>Semantic:</strong> Using <mark>meaningful structure</mark>.<br />
+    <strong>Non-Semantic:</strong> <span style="color: red;">Using span for styling</span> inline elements.
+  </p>
+
+</body>
+</html>
