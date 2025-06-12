@@ -42,6 +42,8 @@ Welcome to my HTML practice repository! This is a collection of basic to interme
 - Created buttons with `<button>` and `<a>` combinations.
 - Embedded content using `<iframe>`.
 
+### 12. Projects
+- x x x x x
 ---
 
 ## 📁 Folder Structure
@@ -59,4 +61,4 @@ Welcome to my HTML practice repository! This is a collection of basic to interme
 ├── 09_form2.html
 ├── 10_class_id_label.html
 ├── 11_multimedia.html
-├── Projects
+├── 12 Projects
