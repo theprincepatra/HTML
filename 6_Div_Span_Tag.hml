@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Div and Span Example</title>
+  <style>
+    .card {
+      border: 1px solid black;
+      padding: 15px;
+      margin: 10px;
+      background-color: #f9f9f9;
+    }
+    .highlight {
+      color: red;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Div & Span Tag Demo</h1>
+
+  <!-- Using div to group content -->
+  <div class="card">
+    <h2>Card Title</h2>
+    <p>This entire block is inside a <code>&lt;div&gt;</code> tag.</p>
+    <p>It helps group elements together like in a card.</p>
+    <p>It is a block-level element</p>
+  </div>
+
+  <!-- Another div -->
+  <div class="card">
+    <p>Even this paragraph is inside a different <code>&lt;div&gt;</code>.</p>
+    <p><span class="highlight">This span highlights only this part of text</span> — useful for inline styling.</p>
+    <p>Selectively target small parts of inline content</p>
+  </div>
+
+  <!-- Mixed usage -->
+  <p>
+    This is a normal paragraph, but <span style="color: blue;">this word is blue</span>,
+    and <span style="background-color: yellow;">this one is yellow highlighted</span>.
+  </p>
+
+</body>
+</html>
