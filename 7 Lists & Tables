@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML Lists and Tables</title>
+</head>
+<body>
+
+  <h1>Lists and Tables in HTML</h1>
+
+  <!-- Unordered List -->
+  <h2>Unordered List - Favorite Fruits</h2>
+  <ul>
+    <li>Apple</li>
+    <li>Banana</li>
+    <li>Mango</li>
+    <li>Grapes</li>
+  </ul>
+
+  <!-- Ordered List -->
+  <h2>Ordered List - Daily Routine</h2>
+  <ol>
+    <li>Wake Up</li>
+    <li>Brush Teeth</li>
+    <li>Exercise</li>
+    <li>Study</li>
+    <li>Sleep</li>
+  </ol>
+
+  <!-- Nested List -->
+  <h2>Nested List - Subjects and Topics</h2>
+  <ol>
+    <li>Mathematics
+      <ul>
+        <li>Algebra</li>
+        <li>Geometry</li>
+        <li>Trigonometry</li>
+      </ul>
+    </li>
+    <li>Science
+      <ul>
+        <li>Physics</li>
+        <li>Chemistry</li>
+        <li>Biology</li>
+      </ul>
+    </li>
+  </ol>
+
+  <!-- Table with Caption, Thead, Tbody, Tfoot, Colspan -->
+  <h2>Student Marks Table</h2>
+  <table border="1" cellpadding="8" cellspacing="0">
+    <caption><strong>Student Results - Term 1</strong></caption>
+    
+    <thead style="background-color: #f2f2f2;">
+      <tr>
+        <th>Roll No</th>
+        <th>Name</th>
+        <th>Math</th>
+        <th>Science</th>
+        <th>Total</th>
+      </tr>
+    </thead>
+    
+    <tbody>
+      <tr>
+        <td>01</td>
+        <td>Ishu</td>
+        <td>100</td>
+        <td>100</td>
+        <td>100</td>
+      </tr>
+      <tr>
+        <td>02</td>
+        <td>Prince</td>
+        <td>88</td>
+        <td>92</td>
+        <td>180</td>
+      </tr>
+      <tr>
+        <td>03</td>
+        <td>Amit</td>
+        <td>75</td>
+        <td>80</td>
+        <td>155</td>
+      </tr>
+      <!-- Colspan example row -->
+      <tr>
+        <td colspan="5" style="text-align: center; background-color: #e0e0e0;"><strong>End of Data</strong></td>
+      </tr>
+    </tbody>
+
+    <tfoot>
+      <tr>
+        <td colspan="4" style="text-align: right;"><strong>Average Total:</strong></td>
+        <td>170</td>
+      </tr>
+    </tfoot>
+  </table>
+
+</body>
+</html>
