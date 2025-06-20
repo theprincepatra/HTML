@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Form Controls - Part 2</title>
+</head>
+<body>
+
+  <h1>Feedback Form</h1>
+
+  <form action="submit_feedback.php" method="post">
+    
+    <!-- Checkbox -->
+    <p>Select your interests:</p>
+    <input type="checkbox" id="coding" name="interest" value="coding">    <!-- multiple selections allowed-->
+    <label for="coding">Coding</label><br>
+
+    <input type="checkbox" id="gaming" name="interest" value="gaming">
+    <label for="gaming">Gaming</label><br>
+
+    <input type="checkbox" id="reading" name="interest" value="reading">
+    <label for="reading">Reading</label><br><br>
+
+    <!-- Textarea -->
+    <label for="feedback">Your Feedback:</label><br>    <!-- For long input like comments or feedback-->
+    <textarea id="feedback" name="feedback" rows="5" cols="40" placeholder="Write your feedback here..."></textarea><br><br>
+
+    <!-- Select Dropdown -->        
+    <label for="country">Choose your country:</label>
+    <select id="country" name="country">
+      <option value="">--Select--</option>      <!-- Dropdown to select one option-->
+      <option value="india">India</option>
+      <option value="usa">USA</option>
+      <option value="uk">UK</option>
+      <option value="other">Other</option>
+    </select><br><br>
+
+    <input type="submit" value="Submit Feedback">
+
+  </form>
+
+</body>
+</html>
