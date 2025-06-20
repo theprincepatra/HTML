@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Multimedia and Embeds</title>
+</head>
+<body>
+
+  <h1>Point 11: Video, Button, Iframe Demo</h1>
+
+  <!-- Video Tag -->
+  <h2>Sample Video</h2>
+  <video width="320" height="240" controls>     <!-- Embeds video files with playback controls-->
+    <source src="sample-video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <p><small>Note: Replace "sample-video.mp4" with your actual file path.</small></p>
+
+  <hr>
+
+  <!-- Button Tag -->
+  <h2>Normal Button</h2>
+  <button onclick="alert('Hello TPP!')">Click Me</button>       <!-- Interactive buttons for actions or links-->
+
+  <h2>Button inside Anchor</h2>
+  <a href="https://www.openai.com" target="_blank">
+    <button>Go to OpenAI</button>
+  </a>
+
+  <hr>
+
+  <!-- Iframe Tag -->
+  <h2>Embedded YouTube Video</h2>
+  <iframe width="420" height="315"
+    src="https://www.youtube.com/embed/tgbNymZ7vqY"
+    title="YouTube video"
+    frameborder="0"
+    allowfullscreen>
+  </iframe>
+
+  <h2>Embedded Website</h2>
+  <iframe src="https://www.wikipedia.org/" width="100%" height="400px" title="Wikipedia Homepage"></iframe>    <!-- Embeds another webpage or media inside your page-->
+
+</body>
+</html>
